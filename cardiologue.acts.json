@@ -1,0 +1,942 @@
+[
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485979"
+    },
+    "id": "a1",
+    "categorie": "Consultation",
+    "champsSpecifiques": [
+      {
+        "id": "motif_consultation",
+        "label": "Motif de consultation",
+        "type": "select",
+        "options": [
+          "Bilan suivi diabète",
+          "Dyslipidémie",
+          "Bilan de santé",
+          "Bilan avant pratique sportive",
+          "Bilan de suivi",
+          "Bilan preoperatoire",
+          "Bilan suivi chimiothérapie",
+          "Bilan avant traitement psychiatrique",
+          "Bilan souffle cardiaque",
+          "Bilan dépistage familial",
+          "Connectivite",
+          "Recherche cardiopathie emboligène",
+          "Dysfonction érectile",
+          "Bilan avant bétabloquants VO",
+          "Transplantation cardiaque",
+          "Cardiopathie insuffisance rénale chronique",
+          "Grossesse depistage, suivi cardiopathie/HTA",
+          "Precordialgies",
+          "Dyspnée",
+          "Hypotension",
+          "Hypotension orthostatique",
+          "HTA",
+          "HTA Reno vasculaire",
+          "HTA endocrine",
+          "Insuffisance cardiaque",
+          "CMD",
+          "CMH",
+          "Amylose cardiaque",
+          "IDM",
+          "Cardiopathie ischemique",
+          "Coronaropathie stable",
+          "Thrombose veineuse profonde",
+          "Embolie pulmonaire",
+          "Varices des membres inf",
+          "Palpitations",
+          "Syncope",
+          "Malaise vagale",
+          "Acces de tachycardie",
+          "Trouble du rythme ventriculaire",
+          "Troubles du rythme supraventriculaires",
+          "TRIN",
+          "Voie accessoire",
+          "Fibrillation/Flutter atriale",
+          "Bradycardie",
+          "BAV.Dysfonction sinusale",
+          "Pacemaker",
+          "Defibrillateur",
+          "Sd QT long congenital",
+          "Dysplasie arythmogène du VD",
+          "Syndrome de BRUGADA",
+          "Valvulopathie mitrale",
+          "Valvulopathie aortique",
+          "Pericardite aigue",
+          "Pericardite chronique constrictive",
+          "Dysthroidie",
+          "Cardiopathie congénitale",
+          "AVC ischémique",
+          "AIT",
+          "AVC hémorragique",
+          "Hypertension artérielle pulmonaire",
+          "Cœur pulmonaire chronique",
+          "Arteripathie des MI",
+          "Ischemie aigue des MI"
+        ]
+      },
+      {
+        "id": "anamnese",
+        "label": "Anamnese",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_medicaux",
+        "label": "Antecedents medicaux",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_cardiaques",
+        "label": "Antecedents cardiaques",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "traitement_en_cours",
+        "label": "Traitement en cours",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "electrocardiogramme",
+        "label": "Electrocardiogramme",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "echocardiographie",
+        "label": "Echocardiographie transthoracique",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "biologie",
+        "label": "Biologie",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "conclusion_consultation",
+        "label": "Conclusion consultation",
+        "type": "text",
+        "options": null
+      }
+    ],
+    "constantes": [
+      "TA",
+      "FC",
+      "Poids",
+      "Taille",
+      "PA",
+      "Temperature",
+      "DFG"
+    ],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "20"
+    },
+    "modelesCR": [
+      {
+        "id": "cr_consultation_standard",
+        "nom": "Consultation standard",
+        "contenu": "ANTECEDENTS MEDICAUX : :\n\nAntecedents cardiaques : :\n\nTRAITEMENT EN COURS : :\n\nMOTIF DE CONSULTATION : :\n\nANAMNESE : :\n\nEXAMEN CLINIQUE : :\n\nELECTROCARDIOGRAMME : :\n\nECHOCARDIOGRAPHIE TRANSTHORACIQUE : :\n\nBIOLOGIE : :\n\nCONSLUSION CONSULTATION : :\n\nTRAITEMENT PRESCRIT : :\n\nPROCHAIN RDV : :",
+        "isDefault": true
+      }
+    ],
+    "nom": "Consultation",
+    "tarifBase": {
+      "$numberInt": "400"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z",
+    "elementsSuivi": [],
+    "isIntervention": false,
+    "parametresProcedure": []
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c48597a"
+    },
+    "id": "a2",
+    "categorie": "Consultation",
+    "champsSpecifiques": [
+      {
+        "id": "motif_consultation",
+        "label": "Motif de consultation",
+        "type": "select",
+        "options": [
+          "Bilan suivi diabète",
+          "Dyslipidémie",
+          "Bilan de santé",
+          "Bilan avant pratique sportive",
+          "Bilan de suivi",
+          "Bilan preoperatoire",
+          "Bilan suivi chimiothérapie",
+          "Bilan avant traitement psychiatrique",
+          "Bilan souffle cardiaque",
+          "Bilan dépistage familial",
+          "Connectivite",
+          "Recherche cardiopathie emboligène",
+          "Dysfonction érectile",
+          "Bilan avant bétabloquants VO",
+          "Transplantation cardiaque",
+          "Cardiopathie insuffisance rénale chronique",
+          "Grossesse depistage, suivi cardiopathie/HTA",
+          "Precordialgies",
+          "Dyspnée",
+          "Hypotension",
+          "Hypotension orthostatique",
+          "HTA",
+          "HTA Reno vasculaire",
+          "HTA endocrine",
+          "Insuffisance cardiaque",
+          "CMD",
+          "CMH",
+          "Amylose cardiaque",
+          "IDM",
+          "Cardiopathie ischemique",
+          "Coronaropathie stable",
+          "Thrombose veineuse profonde",
+          "Embolie pulmonaire",
+          "Varices des membres inf",
+          "Palpitations",
+          "Syncope",
+          "Malaise vagale",
+          "Acces de tachycardie",
+          "Trouble du rythme ventriculaire",
+          "Troubles du rythme supraventriculaires",
+          "TRIN",
+          "Voie accessoire",
+          "Fibrillation/Flutter atriale",
+          "Bradycardie",
+          "BAV.Dysfonction sinusale",
+          "Pacemaker",
+          "Defibrillateur",
+          "Sd QT long congenital",
+          "Dysplasie arythmogène du VD",
+          "Syndrome de BRUGADA",
+          "Valvulopathie mitrale",
+          "Valvulopathie aortique",
+          "Pericardite aigue",
+          "Pericardite chronique constrictive",
+          "Dysthroidie",
+          "Cardiopathie congénitale",
+          "AVC ischémique",
+          "AIT",
+          "AVC hémorragique",
+          "Hypertension artérielle pulmonaire",
+          "Cœur pulmonaire chronique",
+          "Arteripathie des MI",
+          "Ischemie aigue des MI"
+        ]
+      },
+      {
+        "id": "anamnese",
+        "label": "Anamnese",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_medicaux",
+        "label": "Antecedents medicaux",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_cardiaques",
+        "label": "Antecedents cardiaques",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "traitement_en_cours",
+        "label": "Traitement en cours",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "electrocardiogramme",
+        "label": "Electrocardiogramme",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "echocardiographie",
+        "label": "Echocardiographie transthoracique",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "biologie",
+        "label": "Biologie",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "conclusion_consultation",
+        "label": "Conclusion consultation",
+        "type": "text",
+        "options": null
+      }
+    ],
+    "constantes": [
+      "Poids",
+      "Taille",
+      "PA",
+      "FC",
+      "Temperature",
+      "DFG"
+    ],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "15"
+    },
+    "modelesCR": [
+      {
+        "id": "cr_consultation_standard",
+        "nom": "Consultation standard",
+        "contenu": "ANTECEDENTS MEDICAUX : :\n\nAntecedents cardiaques : :\n\nTRAITEMENT EN COURS : :\n\nMOTIF DE CONSULTATION : :\n\nANAMNESE : :\n\nEXAMEN CLINIQUE : :\n\nELECTROCARDIOGRAMME : :\n\nECHOCARDIOGRAPHIE TRANSTHORACIQUE : :\n\nBIOLOGIE : :\n\nCONSLUSION CONSULTATION : :\n\nTRAITEMENT PRESCRIT : :\n\nPROCHAIN RDV : :",
+        "isDefault": true
+      }
+    ],
+    "nom": "Examen clinique",
+    "tarifBase": {
+      "$numberInt": "300"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c48597b"
+    },
+    "id": "a3",
+    "categorie": "Consultation",
+    "champsSpecifiques": [
+      {
+        "id": "motif_consultation",
+        "label": "Motif de consultation",
+        "type": "select",
+        "options": [
+          "Bilan suivi diabète",
+          "Dyslipidémie",
+          "Bilan de santé",
+          "Bilan avant pratique sportive",
+          "Bilan de suivi",
+          "Bilan preoperatoire",
+          "Bilan suivi chimiothérapie",
+          "Bilan avant traitement psychiatrique",
+          "Bilan souffle cardiaque",
+          "Bilan dépistage familial",
+          "Connectivite",
+          "Recherche cardiopathie emboligène",
+          "Dysfonction érectile",
+          "Bilan avant bétabloquants VO",
+          "Transplantation cardiaque",
+          "Cardiopathie insuffisance rénale chronique",
+          "Grossesse depistage, suivi cardiopathie/HTA",
+          "Precordialgies",
+          "Dyspnée",
+          "Hypotension",
+          "Hypotension orthostatique",
+          "HTA",
+          "HTA Reno vasculaire",
+          "HTA endocrine",
+          "Insuffisance cardiaque",
+          "CMD",
+          "CMH",
+          "Amylose cardiaque",
+          "IDM",
+          "Cardiopathie ischemique",
+          "Coronaropathie stable",
+          "Thrombose veineuse profonde",
+          "Embolie pulmonaire",
+          "Varices des membres inf",
+          "Palpitations",
+          "Syncope",
+          "Malaise vagale",
+          "Acces de tachycardie",
+          "Trouble du rythme ventriculaire",
+          "Troubles du rythme supraventriculaires",
+          "TRIN",
+          "Voie accessoire",
+          "Fibrillation/Flutter atriale",
+          "Bradycardie",
+          "BAV.Dysfonction sinusale",
+          "Pacemaker",
+          "Defibrillateur",
+          "Sd QT long congenital",
+          "Dysplasie arythmogène du VD",
+          "Syndrome de BRUGADA",
+          "Valvulopathie mitrale",
+          "Valvulopathie aortique",
+          "Pericardite aigue",
+          "Pericardite chronique constrictive",
+          "Dysthroidie",
+          "Cardiopathie congénitale",
+          "AVC ischémique",
+          "AIT",
+          "AVC hémorragique",
+          "Hypertension artérielle pulmonaire",
+          "Cœur pulmonaire chronique",
+          "Arteripathie des MI",
+          "Ischemie aigue des MI"
+        ]
+      },
+      {
+        "id": "anamnese",
+        "label": "Anamnese",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_medicaux",
+        "label": "Antecedents medicaux",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_cardiaques",
+        "label": "Antecedents cardiaques",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "traitement_en_cours",
+        "label": "Traitement en cours",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "electrocardiogramme",
+        "label": "Electrocardiogramme",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "echocardiographie",
+        "label": "Echocardiographie transthoracique",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "biologie",
+        "label": "Biologie",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "conclusion_consultation",
+        "label": "Conclusion consultation",
+        "type": "text",
+        "options": null
+      }
+    ],
+    "constantes": [
+      "Poids",
+      "Taille",
+      "PA",
+      "FC",
+      "Temperature",
+      "DFG"
+    ],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "30"
+    },
+    "modelesCR": [
+      {
+        "id": "cr_consultation_standard",
+        "nom": "Consultation standard",
+        "contenu": "ANTECEDENTS MEDICAUX : :\n\nAntecedents cardiaques : :\n\nTRAITEMENT EN COURS : :\n\nMOTIF DE CONSULTATION : :\n\nANAMNESE : :\n\nEXAMEN CLINIQUE : :\n\nELECTROCARDIOGRAMME : :\n\nECHOCARDIOGRAPHIE TRANSTHORACIQUE : :\n\nBIOLOGIE : :\n\nCONSLUSION CONSULTATION : :\n\nTRAITEMENT PRESCRIT : :\n\nPROCHAIN RDV : :",
+        "isDefault": true
+      }
+    ],
+    "nom": "Avis cardiologue",
+    "tarifBase": {
+      "$numberInt": "500"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c48597c"
+    },
+    "id": "a4",
+    "categorie": "Examen",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Cabinet",
+    "dureeEstimee": {
+      "$numberInt": "15"
+    },
+    "modelesCR": [],
+    "nom": "Holter rythmique",
+    "tarifBase": {
+      "$numberInt": "800"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z",
+    "elementsSuivi": [],
+    "isIntervention": null,
+    "parametresProcedure": []
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c48597d"
+    },
+    "id": "a5",
+    "categorie": "Examen",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Cabinet",
+    "dureeEstimee": {
+      "$numberInt": "15"
+    },
+    "modelesCR": [],
+    "nom": "Holter tensionnel",
+    "tarifBase": {
+      "$numberInt": "600"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z",
+    "elementsSuivi": [],
+    "isIntervention": null,
+    "parametresProcedure": []
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c48597e"
+    },
+    "id": "a6",
+    "categorie": "Examen",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "10"
+    },
+    "modelesCR": [],
+    "nom": "ECG",
+    "tarifBase": {
+      "$numberInt": "200"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c48597f"
+    },
+    "id": "a7",
+    "categorie": "Examen",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "20"
+    },
+    "modelesCR": [],
+    "nom": "Echo cardiaque",
+    "tarifBase": {
+      "$numberInt": "800"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z",
+    "elementsSuivi": [],
+    "isIntervention": null,
+    "parametresProcedure": []
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485980"
+    },
+    "id": "a8",
+    "categorie": "Interventionnel",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Clinique",
+    "dureeEstimee": {
+      "$numberInt": "60"
+    },
+    "isIntervention": true,
+    "modelesCR": [],
+    "nom": "Coronaro",
+    "tarifBase": {
+      "$numberInt": "6500"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485981"
+    },
+    "id": "a9",
+    "categorie": "Interventionnel",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Clinique",
+    "dureeEstimee": {
+      "$numberInt": "90"
+    },
+    "isIntervention": true,
+    "modelesCR": [],
+    "nom": "Pacemaker",
+    "tarifBase": {
+      "$numberInt": "15000"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485982"
+    },
+    "id": "a10",
+    "categorie": "Examen",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Cabinet",
+    "dureeEstimee": {
+      "$numberInt": "20"
+    },
+    "modelesCR": [],
+    "nom": "Contrôle pacemaker",
+    "tarifBase": {
+      "$numberInt": "600"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z",
+    "elementsSuivi": [],
+    "isIntervention": null,
+    "parametresProcedure": []
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485983"
+    },
+    "id": "a11",
+    "categorie": "Interventionnel",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Clinique",
+    "dureeEstimee": {
+      "$numberInt": "120"
+    },
+    "isIntervention": true,
+    "modelesCR": [],
+    "nom": "Défibrillateur",
+    "tarifBase": {
+      "$numberInt": "25000"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485984"
+    },
+    "id": "a12",
+    "categorie": "Examen",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Cabinet",
+    "dureeEstimee": {
+      "$numberInt": "20"
+    },
+    "modelesCR": [],
+    "nom": "Contrôle défibrillateur",
+    "tarifBase": {
+      "$numberInt": "600"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z",
+    "elementsSuivi": [],
+    "isIntervention": null,
+    "parametresProcedure": []
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485985"
+    },
+    "id": "a13",
+    "categorie": "Examen",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "15"
+    },
+    "modelesCR": [],
+    "nom": "Doppler",
+    "tarifBase": {
+      "$numberInt": "800"
+    },
+    "updatedAt": "2026-04-15T11:55:10.320Z",
+    "elementsSuivi": [],
+    "isIntervention": null,
+    "parametresProcedure": []
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485986"
+    },
+    "id": "a14",
+    "categorie": "Ordonnance",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "5"
+    },
+    "modelesCR": [],
+    "nom": "Prescription médicaments",
+    "tarifBase": {
+      "$numberInt": "0"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485987"
+    },
+    "id": "a15",
+    "categorie": "Ordonnance",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "5"
+    },
+    "modelesCR": [],
+    "nom": "Prescription bilan biologique",
+    "tarifBase": {
+      "$numberInt": "0"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485988"
+    },
+    "id": "a16",
+    "categorie": "Ordonnance",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "5"
+    },
+    "modelesCR": [],
+    "nom": "Prescription bilan radiologique",
+    "tarifBase": {
+      "$numberInt": "0"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c485989"
+    },
+    "id": "a17",
+    "categorie": "Document",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "10"
+    },
+    "modelesCR": [],
+    "nom": "Certificats",
+    "tarifBase": {
+      "$numberInt": "100"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dec626beb0b8bf4c48598a"
+    },
+    "id": "a18",
+    "categorie": "Autre",
+    "champsSpecifiques": [],
+    "constantes": [],
+    "createdAt": "2026-04-14T22:56:37.777Z",
+    "disponibilite": "Les deux",
+    "dureeEstimee": {
+      "$numberInt": "15"
+    },
+    "modelesCR": [],
+    "nom": "Autre à préciser",
+    "tarifBase": {
+      "$numberInt": "0"
+    },
+    "updatedAt": "2026-04-14T22:56:37.777Z"
+  },
+  {
+    "_id": {
+      "$oid": "69df7b674c58fb330cf090ff"
+    },
+    "id": "a19",
+    "nom": "Consultation + ECG",
+    "categorie": "Consultation",
+    "tarifBase": {
+      "$numberInt": "350"
+    },
+    "dureeEstimee": {
+      "$numberInt": "30"
+    },
+    "disponibilite": "Cabinet",
+    "constantes": [
+      "Poids",
+      "Taille",
+      "PA",
+      "FC",
+      "Temperature",
+      "DFG"
+    ],
+    "champsSpecifiques": [
+      {
+        "id": "motif_consultation",
+        "label": "Motif de consultation",
+        "type": "select",
+        "options": [
+          "Bilan suivi diabète",
+          "Dyslipidémie",
+          "Bilan de santé",
+          "Bilan avant pratique sportive",
+          "Bilan de suivi",
+          "Bilan preoperatoire",
+          "Bilan suivi chimiothérapie",
+          "Bilan avant traitement psychiatrique",
+          "Bilan souffle cardiaque",
+          "Bilan dépistage familial",
+          "Connectivite",
+          "Recherche cardiopathie emboligène",
+          "Dysfonction érectile",
+          "Bilan avant bétabloquants VO",
+          "Transplantation cardiaque",
+          "Cardiopathie insuffisance rénale chronique",
+          "Grossesse depistage, suivi cardiopathie/HTA",
+          "Precordialgies",
+          "Dyspnée",
+          "Hypotension",
+          "Hypotension orthostatique",
+          "HTA",
+          "HTA Reno vasculaire",
+          "HTA endocrine",
+          "Insuffisance cardiaque",
+          "CMD",
+          "CMH",
+          "Amylose cardiaque",
+          "IDM",
+          "Cardiopathie ischemique",
+          "Coronaropathie stable",
+          "Thrombose veineuse profonde",
+          "Embolie pulmonaire",
+          "Varices des membres inf",
+          "Palpitations",
+          "Syncope",
+          "Malaise vagale",
+          "Acces de tachycardie",
+          "Trouble du rythme ventriculaire",
+          "Troubles du rythme supraventriculaires",
+          "TRIN",
+          "Voie accessoire",
+          "Fibrillation/Flutter atriale",
+          "Bradycardie",
+          "BAV.Dysfonction sinusale",
+          "Pacemaker",
+          "Defibrillateur",
+          "Sd QT long congenital",
+          "Dysplasie arythmogène du VD",
+          "Syndrome de BRUGADA",
+          "Valvulopathie mitrale",
+          "Valvulopathie aortique",
+          "Pericardite aigue",
+          "Pericardite chronique constrictive",
+          "Dysthroidie",
+          "Cardiopathie congénitale",
+          "AVC ischémique",
+          "AIT",
+          "AVC hémorragique",
+          "Hypertension artérielle pulmonaire",
+          "Cœur pulmonaire chronique",
+          "Arteripathie des MI",
+          "Ischemie aigue des MI"
+        ]
+      },
+      {
+        "id": "anamnese",
+        "label": "Anamnese",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_medicaux",
+        "label": "Antecedents medicaux",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "antecedents_cardiaques",
+        "label": "Antecedents cardiaques",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "traitement_en_cours",
+        "label": "Traitement en cours",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "electrocardiogramme",
+        "label": "Electrocardiogramme",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "echocardiographie",
+        "label": "Echocardiographie transthoracique",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "biologie",
+        "label": "Biologie",
+        "type": "text",
+        "options": null
+      },
+      {
+        "id": "conclusion_consultation",
+        "label": "Conclusion consultation",
+        "type": "text",
+        "options": null
+      }
+    ],
+    "modelesCR": [
+      {
+        "id": "cr_consultation_standard",
+        "nom": "Consultation standard",
+        "contenu": "ANTECEDENTS MEDICAUX : :\n\nAntecedents cardiaques : :\n\nTRAITEMENT EN COURS : :\n\nMOTIF DE CONSULTATION : :\n\nANAMNESE : :\n\nEXAMEN CLINIQUE : :\n\nELECTROCARDIOGRAMME : :\n\nECHOCARDIOGRAPHIE TRANSTHORACIQUE : :\n\nBIOLOGIE : :\n\nCONSLUSION CONSULTATION : :\n\nTRAITEMENT PRESCRIT : :\n\nPROCHAIN RDV : :",
+        "isDefault": true
+      }
+    ],
+    "isIntervention": null,
+    "parametresProcedure": [],
+    "elementsSuivi": [],
+    "createdAt": "2026-04-15T11:49:58.721Z",
+    "updatedAt": "2026-04-15T11:55:10.320Z"
+  }
+]

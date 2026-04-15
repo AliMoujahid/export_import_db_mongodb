@@ -1,0 +1,15 @@
+[
+  {
+    "_id": {
+      "$oid": "69df7fa84eda1b9121f7b5f8"
+    },
+    "isExternal": false,
+    "id": "5d544c2f-091b-4d6f-aa1f-8f7eae3a7369",
+    "nom": "rendez-vous",
+    "droits": [
+      "p_rdv"
+    ],
+    "createdAt": "2026-04-15T12:08:08.839Z",
+    "updatedAt": "2026-04-15T12:08:08.839Z"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "_id": {
+      "$oid": "69dec94ebeb0b8bf4c48598b"
+    },
+    "id": "c1",
+    "actif": true,
+    "adresse": "Anfa, Casa",
+    "categorie": "Clinique",
+    "createdAt": "2026-04-14T23:10:06.388Z",
+    "ice": "99999",
+    "inpe": "1234",
+    "mail": "littoral@clinique.ma",
+    "nom": "Clinique du Littoral",
+    "nomCoordinateur": "Mme Idrissi",
+    "nomDirecteur": "Dr. Bennani",
+    "patente": "5678",
+    "responsableCompta": "Mr. Zahid",
+    "telCoordinateur": "0662000000",
+    "telDirecteur": "0661000000",
+    "telResponsableCompta": "0663000000",
+    "telephone": "0522000000",
+    "updatedAt": "2026-04-14T23:10:06.388Z"
+  },
+  {
+    "_id": {
+      "$oid": "69df7b664c58fb330cf090fd"
+    },
+    "id": "c2",
+    "nom": "Clinique Fraceville",
+    "categorie": "Clinique",
+    "adresse": "393, bd Ghandi ang. rue Med Fouiteh, Rue de Franceville, Casablanca 20000",
+    "telephone": "0522232627",
+    "mail": "",
+    "inpe": "",
+    "patente": "",
+    "ice": "",
+    "nomDirecteur": "",
+    "telDirecteur": "",
+    "nomCoordinateur": "",
+    "telCoordinateur": "",
+    "responsableCompta": "",
+    "telResponsableCompta": "",
+    "actif": true,
+    "createdAt": "2026-04-15T11:49:58.708Z",
+    "updatedAt": "2026-04-15T11:55:10.306Z"
+  },
+  {
+    "_id": {
+      "$oid": "69df7b664c58fb330cf090fe"
+    },
+    "id": "c3",
+    "nom": "Clinique Riad Abdelmoumen",
+    "categorie": "Clinique",
+    "adresse": "Quartier des Hôpitaux، Tramaway : Station, Boulevard Abdelmoumen, Rue Abderrahmane Abi Laïla, Casablanca 20420",
+    "telephone": "0522861211",
+    "mail": "",
+    "inpe": "",
+    "patente": "",
+    "ice": "",
+    "nomDirecteur": "",
+    "telDirecteur": "",
+    "nomCoordinateur": "",
+    "telCoordinateur": "",
+    "responsableCompta": "",
+    "telResponsableCompta": "",
+    "actif": true,
+    "createdAt": "2026-04-15T11:49:58.708Z",
+    "updatedAt": "2026-04-15T11:55:10.306Z"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "_id": {
+      "$oid": "69dfd91d2462c10f97404651"
+    },
+    "id": "admin_default",
+    "nom": "Administrateur",
+    "email": "admin@cardiosphere.local",
+    "tel": "0613117131",
+    "roleId": "admin",
+    "actif": true,
+    "isAdmin": true,
+    "passwordHash": "68b82f65a148100e3d0954d862db79a4:330b1e8d5a4ef537398bb698db220dccb3f744f6483a1a5d089c346366ac885a966bce639d3e6d65331e6c24e6ee60a0c8bbf392c056511efea720f3744ba1d6",
+    "createdAt": "2026-04-15T18:29:49.179Z",
+    "updatedAt": "2026-04-15T18:44:24.851Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dfde33ffb606e4c9438e5b"
+    },
+    "nom": "ali",
+    "email": "ali@gmail.com",
+    "tel": "0613117131",
+    "roleId": "5d544c2f-091b-4d6f-aa1f-8f7eae3a7369",
+    "actif": true,
+    "isAdmin": false,
+    "passwordHash": "147af8b9f28197e1099a13ea2cf5875d:27323e428d61fd777c1f53779b598e55c0fa6e070e426840ef84790ed15f1e5221855cb8c36928d96aac222e74b5bcba81500db0b88c14530ea77d7d3e5861fa",
+    "id": "a1925f84-8360-4e6c-b49b-3484440eedfe",
+    "createdAt": "2026-04-15T18:51:31.572Z",
+    "updatedAt": "2026-04-15T18:51:31.572Z"
+  }
+]

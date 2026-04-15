@@ -1,0 +1,102 @@
+[
+  {
+    "_id": {
+      "$oid": "69deca8eaf71fb0df08c09d4"
+    },
+    "id": "61055691-365d-4fad-9d4c-a8d015f4d3bb",
+    "patientId": "b29a9205-ade0-4206-bbdc-979280aea407",
+    "patientNom": "moujahid azer",
+    "clinicId": "c1",
+    "clinicNom": "Clinique du Littoral",
+    "acteNom": "Coronaro",
+    "cathlabId": "tt",
+    "date": "2026-04-16",
+    "startTime": "02:15",
+    "status": "PLANNED",
+    "preOp": {
+      "consentSigned": true,
+      "fastingRespected": false,
+      "labsDone": false,
+      "anticoagulationStopped": false,
+      "imagingReviewed": false,
+      "checklistNotes": ""
+    },
+    "procedure": {
+      "accessRoute": "Radiale",
+      "indication": "",
+      "devices": [
+        {
+          "id": "1776249359080",
+          "reference": "",
+          "brand": "",
+          "type": ""
+        }
+      ],
+      "complications": "1",
+      "fluoroscopyTime": {
+        "$numberInt": "1"
+      },
+      "contrastVolume": {
+        "$numberInt": "0"
+      }
+    },
+    "postOp": {
+      "decisionSortie": "test",
+      "dateSortie": "2026-04-15"
+    },
+    "linkedFiles": [],
+    "createdAt": "2026-04-14T23:15:26.324Z",
+    "reportContent": "test",
+    "updatedAt": "2026-04-15T10:36:21.342Z"
+  },
+  {
+    "_id": {
+      "$oid": "69dfdfadffb606e4c9438e5c"
+    },
+    "id": "04e20a81-14ef-4436-b703-fa5dccf3bf6b",
+    "patientId": "b29a9205-ade0-4206-bbdc-979280aea407",
+    "patientNom": "moujahid azer",
+    "clinicId": "c1",
+    "clinicNom": "Clinique du Littoral",
+    "acteNom": "Pacemaker",
+    "cathlabId": "bloc1",
+    "date": "2026-04-16",
+    "startTime": "19:59",
+    "status": "PLANNED",
+    "preOp": {
+      "consentSigned": true,
+      "fastingRespected": true,
+      "labsDone": false,
+      "anticoagulationStopped": false,
+      "imagingReviewed": false,
+      "checklistNotes": ""
+    },
+    "procedure": {
+      "accessRoute": "Humérale",
+      "indication": "",
+      "devices": [
+        {
+          "id": "1776279517912",
+          "reference": "",
+          "brand": "",
+          "type": ""
+        }
+      ],
+      "complications": "",
+      "fluoroscopyTime": {
+        "$numberInt": "1"
+      },
+      "contrastVolume": {
+        "$numberInt": "1"
+      }
+    },
+    "postOp": {
+      "decisionSortie": "",
+      "dateSortie": "2026-04-15"
+    },
+    "linkedFiles": [],
+    "createdAt": "2026-04-15T18:57:49.136Z",
+    "reportContent": "test",
+    "updatedAt": "2026-04-15T18:59:07.114Z"
+  }
+]

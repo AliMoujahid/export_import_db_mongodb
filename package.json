@@ -1,0 +1,16 @@
+{
+  "name": "export_import_db_mongodb",
+  "version": "1.0.0",
+  "main": "export-all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bson": "^7.2.0",
+    "mongodb": "^7.1.1"
+  }
+}

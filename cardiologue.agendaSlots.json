@@ -1,0 +1,17 @@
+[
+  {
+    "_id": {
+      "$oid": "69deca42af71fb0df08c09d3"
+    },
+    "type": "AFFECTATION",
+    "site": "CLINIQUE",
+    "start": "2026-04-07T07:00:00.000Z",
+    "end": "2026-04-13T17:00:00.000Z",
+    "dayKey": "2026-04-07",
+    "createdBy": "frontend_user",
+    "note": "Clinique: Clinique du Littoral",
+    "id": "eac64cb8-9caa-40f3-8c77-e6f9251e9a01",
+    "createdAt": "2026-04-14T23:14:10.200Z",
+    "updatedAt": "2026-04-14T23:14:10.200Z"
+  }
+]

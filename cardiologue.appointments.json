@@ -1,0 +1,21 @@
+[
+  {
+    "_id": {
+      "$oid": "69dec6e7af71fb0df08c09d2"
+    },
+    "id": "a68bc123-c25b-45ee-8d89-196ba6c2d10b",
+    "patientId": "b29a9205-ade0-4206-bbdc-979280aea407",
+    "patientNom": "moujahid azer",
+    "date": "2026-04-14",
+    "heureDebut": "23:59",
+    "duree": {
+      "$numberInt": "20"
+    },
+    "type": "Consultation",
+    "site": "Cabinet Maarif",
+    "statut": "En attente",
+    "rappelStatut": "Non_envoyé",
+    "createdAt": "2026-04-14T22:59:51.876Z",
+    "updatedAt": "2026-04-14T22:59:51.876Z"
+  }
+]

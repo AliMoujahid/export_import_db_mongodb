@@ -1,0 +1,14 @@
+[
+  {
+    "_id": {
+      "$oid": "69df80614eda1b9121f7b5fa"
+    },
+    "tarifsSpecifiques": {},
+    "id": "2356dbc8-fce6-4358-81d9-54a5d3e7eb75",
+    "nom": "cnops",
+    "adresse": "maarif",
+    "telephone": "0611111112",
+    "createdAt": "2026-04-15T12:11:13.901Z",
+    "updatedAt": "2026-04-15T12:11:20.272Z"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "_id": {
+      "$oid": "69df80ba4eda1b9121f7b5fb"
+    },
+    "id": "add7e7e7-5c26-4964-8219-cdf55c1cf17f",
+    "nom": "ali",
+    "prenom": "moujahid",
+    "nature": "Clinique",
+    "natureDetail": "test",
+    "email": "test@gmail.com",
+    "inpe": "187622",
+    "ice": "987292",
+    "telephone": "0611111111",
+    "adresse": "98628762",
+    "createdAt": "2026-04-15T12:12:42.646Z",
+    "updatedAt": "2026-04-15T12:13:15.914Z"
+  }
+]
