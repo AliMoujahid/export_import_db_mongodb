@@ -1,6 +1,6 @@
 const fs = require('fs/promises');
 const path = require('path');
-const { MongoClient } = require('../Cardiologue_bc/node_modules/mongodb/mongodb');
+const { MongoClient } = require('mongodb');
 const { EJSON } = require('bson');
 
 const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017';
